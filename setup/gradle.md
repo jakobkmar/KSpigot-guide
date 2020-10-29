@@ -32,7 +32,7 @@ repositories {
 
 ## Add the dependency
 
-[ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=kspigot%20latest%20version&style=flat-square) ](gradle.md)
+The latest version of KSpigot: [ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=version&style=flat-square) ](gradle.md)
 
 {% tabs %}
 {% tab title="build.gradle.kts" %}
