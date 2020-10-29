@@ -6,7 +6,7 @@ description: Follow this guide to get started with the KSpigot API
 
 ## To get started, you need a build system
 
-Read the guide for your chosen build system:
+Read the guide for your preferred build system:
 
 {% page-ref page="gradle.md" %}
 
