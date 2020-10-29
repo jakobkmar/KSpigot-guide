@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [KSpigot Guide](README.md)
+
+## Setup
+
+* [Gradle](setup/gradle.md)
 
