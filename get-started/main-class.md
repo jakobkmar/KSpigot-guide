@@ -8,7 +8,7 @@ description: Every plugins needs a main class.
 
 If you come from Spigot, you already know that every plugins needs a main class.
 
-In the case of KSpigot, **do not override `JavaPlugin`**. Override `KSpigot` instead.
+In the case of KSpigot, **do not inherit from `JavaPlugin`**. Inherit from `KSpigot` instead.
 
 ```kotlin
 class InternalMainClass : KSpigot() {
