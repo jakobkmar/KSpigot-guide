@@ -7,4 +7,5 @@
 * [Setting up](get-started/setting-up/README.md)
   * [Gradle](get-started/setting-up/gradle.md)
   * [Maven](get-started/setting-up/maven.md)
+* [Main class](get-started/main-class.md)
 
