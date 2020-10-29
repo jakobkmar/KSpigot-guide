@@ -49,5 +49,5 @@ class InternalMainClass : KSpigot() {
 val Manager by lazy { InternalMainClass.INSTANCE }
 ```
 
-Now you are able to use the value **`Manager`** everywhere in your project. It is a `Plugin`, `JavaPlugin`, `KSpigot` instance and holds all of your fields in your main class.
+Now you are able to use the value **`Manager`** everywhere in your project. It is a `Plugin`, `JavaPlugin`, `KSpigot` instance and an instance of your own main class with all of its fields.
 
