@@ -27,12 +27,12 @@ repositories {
 {% endtabs %}
 
 {% hint style="info" %}
-`jcenter()` is for KSpigot itself, the other repositories are required for KSpigots' dependencies.
+`jcenter()` is for KSpigot itself, the other repositories are required for KSpigot's dependencies.
 {% endhint %}
 
 ## Add the dependency
 
-[ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=kspigot%20latest%20version&style=flat-square) ]()
+[ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=kspigot%20latest%20version&style=flat-square) ](gradle.md)
 
 {% tabs %}
 {% tab title="build.gradle.kts" %}
@@ -58,8 +58,7 @@ KSpigot must be available at runtime. Therefore, the best way of providing it is
 
 You will need the shadow plugin by John Engelman.
 
-The latest version of the plugin:
-[ ![shadow-plugin version](https://api.bintray.com/packages/johnrengelman/gradle-plugins/gradle-shadow-plugin/images/download.png) ]()
+The latest version of the plugin: [ ![shadow-plugin version](https://api.bintray.com/packages/johnrengelman/gradle-plugins/gradle-shadow-plugin/images/download.png) ](gradle.md)
 
 {% tabs %}
 {% tab title="build.gradle.kts" %}
@@ -153,6 +152,4 @@ If you do not relocate KSpigot, it could come to conflicts with other plugins us
 ## Build your project
 
 Now execute the gradle task `shadowJar` to build your jar file.
-
-
 
