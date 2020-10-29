@@ -32,6 +32,8 @@ repositories {
 
 ## Add the dependency
 
+[ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=kspigot%20latest%20version&style=flat-square) ]()
+
 {% tabs %}
 {% tab title="build.gradle.kts" %}
 ```kotlin
@@ -55,6 +57,9 @@ dependencies {
 KSpigot must be available at runtime. Therefore, the best way of providing it is to shade it into your final jar file.
 
 You will need the shadow plugin by John Engelman.
+
+The latest version of the plugin:
+[ ![shadow-plugin version](https://api.bintray.com/packages/johnrengelman/gradle-plugins/gradle-shadow-plugin/images/download.png) ]()
 
 {% tabs %}
 {% tab title="build.gradle.kts" %}
