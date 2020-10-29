@@ -4,6 +4,8 @@ description: Implementing KSpigot with your gradle build script.
 
 # Gradle
 
+Open your `build.gradle.kts` \(Kotlin-Script\) or `build.gradle` \(Groovy\) file.
+
 ## Add the required repositories
 
 {% tabs %}

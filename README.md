@@ -18,3 +18,11 @@ There you can find links to all the other resources of KSpigot.
 
 The philosophy behind KSpigot is not only to offer old functionalities the Kotlin way, but also to add completely new API features that can be used frequently. These should be kept as general as possible.
 
+## Get started with the API
+
+Read this guide if you are new to KSpigot:
+
+
+
+
+

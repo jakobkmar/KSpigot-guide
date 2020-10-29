@@ -2,7 +2,9 @@
 
 * [KSpigot Guide](README.md)
 
-## Setup
+## Get started
 
-* [Gradle](setup/gradle.md)
+* [Setting up](get-started/setting-up/README.md)
+  * [Gradle](get-started/setting-up/gradle.md)
+  * [Maven](get-started/setting-up/maven.md)
 
