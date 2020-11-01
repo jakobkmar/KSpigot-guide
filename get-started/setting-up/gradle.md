@@ -90,7 +90,7 @@ Now KSpigot should be relocated. To do that, you have two options:
 ```kotlin
 tasks {
     shadowJar {
-        relocate("net.axay.kspigot", "${project.group}.${project.name}.shadow.net.axay.kspigot")
+        relocate("net.axay.kspigot", "${project.group}.${project.name.toLowerCase()}.shadow.net.axay.kspigot")
     }
 }
 ```
@@ -106,7 +106,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ConfigureShadowRelocatio
 
 val relocateShadowJar by tasks.creating(ConfigureShadowRelocation::class) {
     target = tasks.shadowJar.get()
-    prefix = "${project.group}.${project.name}.shadow"
+    prefix = "${project.group}.${project.name.toLowerCase()}.shadow"
 }
 
 tasks.shadowJar.get().dependsOn(relocateShadowJar)
