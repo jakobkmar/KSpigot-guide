@@ -14,7 +14,7 @@ Open your `build.gradle.kts` \(Kotlin-Script\) or `build.gradle` \(Groovy\) file
 repositories {
     mavenCentral()
     jcenter()
-    maven("https://jitpack.io")
+    maven("https://repo.codemc.io/repository/maven-snapshots/")
 }
 ```
 {% endtab %}
@@ -24,7 +24,7 @@ repositories {
 repositories {
     mavenCentral()
     jcenter()
-    maven { url 'https://jitpack.io' }
+    maven { url 'https://repo.codemc.io/repository/maven-snapshots/' }
 }
 ```
 {% endtab %}

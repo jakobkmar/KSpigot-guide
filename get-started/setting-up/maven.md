@@ -16,8 +16,8 @@ Open your `pom.xml` file.
         <url>https://jcenter.bintray.com</url>
     </repository>
     <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
+        <id>codemc-snapshots</id>
+        <url>https://repo.codemc.io/repository/maven-snapshots/</url>
     </repository>
 </repositories>
 ```
