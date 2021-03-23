@@ -12,6 +12,7 @@ Open your `build.gradle.kts` \(Kotlin-Script\) or `build.gradle` \(Groovy\) file
 {% tab title="build.gradle.kts" %}
 ```kotlin
 repositories {
+    mavenCentral()
     jcenter()
     maven("https://jitpack.io")
 }
@@ -21,6 +22,7 @@ repositories {
 {% tab title="build.gradle" %}
 ```groovy
 repositories {
+    mavenCentral()
     jcenter()
     maven { url 'https://jitpack.io' }
 }
@@ -34,13 +36,13 @@ repositories {
 
 ## Add the dependency
 
-The latest version of KSpigot: [ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=version&style=flat-square) ](gradle.md)
+The latest version of KSpigot can be found on GitHub.
 
 {% tabs %}
 {% tab title="build.gradle.kts" %}
 ```kotlin
 dependencies {
-    implementation("net.axay", "KSpigot", "INSERT_VERSION")
+    implementation("net.axay", "kspigot", "INSERT_VERSION")
 }
 ```
 {% endtab %}
@@ -48,7 +50,7 @@ dependencies {
 {% tab title="build.gradle" %}
 ```kotlin
 dependencies {
-    implementation 'net.axay:KSpigot:INSERT_VERSION'
+    implementation 'net.axay:kspigot:INSERT_VERSION'
 }
 ```
 {% endtab %}

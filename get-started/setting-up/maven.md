@@ -28,13 +28,13 @@ Open your `pom.xml` file.
 
 ## Add the dependency
 
-The latest version of KSpigot: [ ![kspigot version](https://img.shields.io/bintray/v/bluefireoly/KSpigot/KSpigot?label=version&style=flat-square) ](gradle.md)
+The latest version of KSpigot can be found on GitHub.
 
 ```markup
 <dependencies>
     <dependency>
         <groupId>net.axay</groupId>
-        <artifactId>KSpigot</artifactId>
+        <artifactId>kspigot</artifactId>
         <version>INSERT_VERSION</version>
     </dependency>
 </dependencies>
